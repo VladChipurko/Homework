@@ -30,11 +30,9 @@ public class Sleep {
         boolean sleepOrNo;
         if(weekday == false && vacation == false){
             sleepOrNo = false;
-            //System.out.println("Подъем!!! Пора на работу!");
         }
         else {
             sleepOrNo = true;
-            //System.out.println("Лафа, спим дальше!");
         }
         return sleepOrNo;
     }
