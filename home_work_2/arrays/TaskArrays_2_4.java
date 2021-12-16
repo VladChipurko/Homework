@@ -1,5 +1,7 @@
 package home_work_2.arrays;
 
+import home_work_2.utils.ArraysUtils;
+
 import java.util.Scanner;
 
 public class TaskArrays_2_4 {
@@ -9,7 +11,7 @@ public class TaskArrays_2_4 {
         int count = scan.nextInt();
         System.out.println("Введите ограничение по числам");
         int limit = scan.nextInt();
-        int[] container = TaskArrays_2_1_2.arrayRandom(count, limit);
+        int[] container = ArraysUtils.arrayRandom(count, limit);
 
         for(int elem : container){
             System.out.print(elem + " ");

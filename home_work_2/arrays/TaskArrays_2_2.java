@@ -1,10 +1,12 @@
 package home_work_2.arrays;
 
+import home_work_2.utils.ArraysUtils;
+
 import java.util.Scanner;
 
 public class TaskArrays_2_2 {
     public static void main(String[] args) {
-        int[] container = TaskArrays_2_1_1.arrayFromConsole();
+        int[] container = ArraysUtils.arrayFromConsole();
         method1(container);
         method2(container);
         method3(container);
