@@ -7,17 +7,17 @@ public class CalculatorWithCounterClassic extends CalculatorWithMathExtends {
     /**
      * Объявление поля счетчика
      */
-    private long CountOperation;
+    private long countOperation;
 
     /**
      * Метод увеличения счетчика на 1
      */
-    public void incrementCountOperation() { CountOperation = CountOperation + 1; }
+    public void incrementCountOperation() { countOperation = countOperation + 1; }
 
     /**
      * Метод возвращения счетчика использования калькулятора
      */
     public long getCountOperation(){
-        return CountOperation;
+        return countOperation;
     }
 }

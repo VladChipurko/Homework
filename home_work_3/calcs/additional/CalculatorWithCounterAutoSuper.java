@@ -4,13 +4,13 @@ import home_work_3.calcs.simple.CalculatorWithMathExtends;
 
 public class CalculatorWithCounterAutoSuper extends CalculatorWithMathExtends {
 
-    private long CountOperation;
+    private long countOperation;
 
     /**
      * Метод увеличения счетчика использования
      */
     public void incrementCountOperation(){
-        CountOperation++;
+        countOperation++;
     }
 
     @Override
@@ -60,6 +60,6 @@ public class CalculatorWithCounterAutoSuper extends CalculatorWithMathExtends {
      * @return
      */
     public long getCountOperation() {
-        return CountOperation;
+        return countOperation;
     }
 }

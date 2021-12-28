@@ -10,14 +10,14 @@ public class CalculatorWithCounterAutoAgregationInterface {
         this.calculator = calculator1;
     }
 
-    private long CountOperation;
+    private long countOperation;
 
     public void incrementCountOperation(){
-        CountOperation++;
+        countOperation++;
     }
 
     public long getCountOperation() {
-        return CountOperation;
+        return countOperation;
     }
 
 

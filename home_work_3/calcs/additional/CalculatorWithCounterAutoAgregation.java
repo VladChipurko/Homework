@@ -6,17 +6,17 @@ import home_work_3.calcs.simple.CalculatorWithOperator;
 
 public class CalculatorWithCounterAutoAgregation {
 
-    private long CountOperation;
+    private long countOperation;
     private CalculatorWithOperator calculator1;
     private CalculatorWithMathCopy calculator2;
     private CalculatorWithMathExtends calculator3;
 
     public void incrementCountOperation(){
-        CountOperation++;
+        countOperation++;
     }
 
     public long getCountOperation() {
-        return CountOperation;
+        return countOperation;
     }
 
     public CalculatorWithCounterAutoAgregation(CalculatorWithOperator calculator1){

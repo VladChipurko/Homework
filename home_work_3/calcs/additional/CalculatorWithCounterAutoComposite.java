@@ -8,14 +8,14 @@ public class CalculatorWithCounterAutoComposite {
 
     CalculatorWithOperator calculator = new CalculatorWithOperator();
 
-    private long CountOperation;
+    private long countOperation;
 
     public void incrementCountOperation(){
-        CountOperation++;
+        countOperation++;
     }
 
     public long getCountOperation() {
-        return CountOperation;
+        return countOperation;
     }
 
 
